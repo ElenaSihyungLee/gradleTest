@@ -33,16 +33,3 @@ apply plugin: 'eclipse'
 apply plugin: 'application'
 
 mainClassName = 'hello.HelloWorld'
-
-// tag::repositories[]
-repositories {
-    mavenCentral()
-}
-// end::repositories[]
-
-// tag::jar[]
-jar {
-    baseName = 'jb-hello-world'
-    version =  '0.1.0'
-}
-// end::jar[]
